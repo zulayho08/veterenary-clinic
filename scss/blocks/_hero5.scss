@@ -1,0 +1,45 @@
+.hero5 {
+  width: 1440px;
+  display: flex;
+
+  &__left {
+    padding-left: 190px;
+    padding-top: 100px;
+  }
+
+  &__head {
+    width: 431px;
+    font-family: "Roboto";
+    font-size: 72px;
+    color: $grey;
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    width: 577px;
+    font-family: "Roboto";
+    font-size: 18px;
+    color: $nineF;
+    margin-bottom: 110px;
+  }
+
+  &__bg {
+    margin-left: -100px;
+    width: 669px;
+    height: 236px;
+    background-image: url("/images/wrapp2__top--bg.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  &__object {
+    margin-left: 450px;
+    margin-top: 90px;
+  }
+
+  &__right--img {
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+}

@@ -1,0 +1,79 @@
+.visible {
+  width: 1440px;
+  display: flex;
+  padding-bottom: 100px;
+
+  &__list {
+    display: flex;
+    width: 323px;
+    justify-content: space-between;
+  }
+
+  &__left {
+    margin-top: 50px;
+    margin-left: 230px;
+  }
+
+  &__item--link {
+    color: $nineF;
+  }
+
+  &__item--link:hover {
+    color: $grey;
+    text-decoration: none;
+  }
+
+  &__head {
+    width: 699px;
+    color: $grey;
+    font-family: "Roboto";
+    font-size: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  &__text1 {
+    width: 699px;
+    color: $nineF;
+    font-family: "Roboto";
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  &__text2 {
+    width: 699px;
+    color: $nineF;
+    font-family: "Roboto";
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  &__text3 {
+    width: 530px;
+    color: $nineF;
+    font-family: "Roboto";
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  &__text4 {
+    width: 699px;
+    color: $nineF;
+    font-family: "Roboto";
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  &__text5 {
+    width: 699px;
+    color: $nineF;
+    font-family: "Roboto";
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  &__right {
+    margin-top: 30px;
+    margin-left: 130px;
+  }
+}

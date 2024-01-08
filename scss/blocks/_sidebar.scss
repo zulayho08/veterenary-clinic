@@ -1,0 +1,40 @@
+.sidebar {
+  width: 1440px;
+  padding-bottom: 200px;
+
+  &__card {
+    width: 1408px;
+    height: 525px;
+    display: flex;
+    background-color: #fff;
+    margin: 0 auto;
+    &--left {
+      width: 558px;
+      height: 525px;
+    }
+
+    &--right {
+      width: 850px;
+      padding-left: 100px;
+      padding-top: 50px;
+    }
+  }
+
+  &__head {
+    width: 375px;
+    margin-top: -25px;
+    margin-bottom: 20px;
+    font-family: "Roboto";
+    font-size: 33px;
+    color: $grey;
+  }
+
+  &__text {
+    width: 600px;
+    color: $grey;
+    color: $nineF;
+    font-family: "Roboto";
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+}

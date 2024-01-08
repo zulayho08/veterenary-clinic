@@ -1,0 +1,30 @@
+.hero4 {
+  width: 1440px;
+  display: flex;
+
+  &__left {
+    padding-left: 120px;
+    padding-top: 100px;
+  }
+
+  &__head {
+    width: 431px;
+    font-family: "Roboto";
+    font-size: 72px;
+    color: $grey;
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    width: 577px;
+    font-family: "Roboto";
+    font-size: 18px;
+    color: $nineF;
+    margin-bottom: 110px;
+  }
+
+  &__right--img {
+    margin-top: 50px;
+    margin-left: 310px;
+  }
+}

@@ -1,0 +1,71 @@
+@import "../colors/colors";
+
+.pending {
+  padding-top: 100px;
+  transform: translateY(-20px);
+  width: 1440px;
+  background-color: #f9f8f8;
+  padding-bottom: 100px;
+
+  &__wrapp {
+    width: 1440px;
+    height: 308px;
+    margin-top: 100px;
+    background-image: url("/images/pending_bg.png");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: flex;
+  }
+
+  &__left {
+    margin-left: 230px;
+    padding-top: 70px;
+  }
+
+  &__head {
+    font-size: 48px;
+    color: $lightColor;
+    margin-bottom: 20px;
+  }
+
+  &__input {
+    width: 335px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  &__input:hover {
+    border: 1px solid $orange;
+  }
+
+  &__input:active {
+    border: 1px solid $orange;
+  }
+
+  &__btn {
+    width: 188px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: $grey;
+    color: #f9f8f8;
+  }
+
+  &__btn:hover {
+    background-color: $orange;
+    color: $grey;
+  }
+
+  &__btn:active {
+    opacity: 0.8;
+  }
+
+  &__right--img {
+    margin-top: -108px;
+  }
+}

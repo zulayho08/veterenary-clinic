@@ -1,0 +1,40 @@
+.aside {
+  width: 1440px;
+  padding-top: 20px;
+  padding-bottom: 200px;
+
+  &__card {
+    margin-left: 120px;
+    margin-bottom: 30px;
+  }
+
+  &__item--title {
+    text-transform: uppercase;
+    display: flex;
+  }
+
+  &__item--head {
+    margin-left: 30px;
+    transform: translateY(5px);
+    color: #78c0de !important;
+  }
+
+  &__summary {
+    font-family: "Roboto";
+    font-size: 23px;
+    color: $grey;
+  }
+
+  &__text {
+    color: $nineF;
+    // width: 597px;
+    font-family: "Roboto";
+    font-size: 17px;
+  }
+
+  &__pic {
+    position: absolute;
+    transform: translateY(-445px);
+    margin-left: 940px;
+  }
+}

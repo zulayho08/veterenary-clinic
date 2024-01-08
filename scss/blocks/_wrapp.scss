@@ -1,0 +1,130 @@
+.wrapp {
+  transform: translateY(-20px);
+  padding-top: 100px;
+  width: 1440px;
+  background-color: $wGrey;
+  padding-bottom: 200px;
+
+  &__head {
+    width: 484px;
+    margin: 0 auto;
+    font-size: 48px;
+    margin-bottom: 70px;
+  }
+
+  &__cards {
+    margin: 0 auto;
+    width: 1298px;
+    display: flex !important;
+    justify-content: space-around;
+  }
+
+  &__card {
+    width: 305px;
+    height: 435px;
+    border: 2px solid #e4e4e2;
+    background-color: #fff;
+  }
+
+  &__card--data {
+    margin-left: 150px;
+    color: #949494;
+  }
+
+  &__card--title1 {
+    margin-top: -5px;
+    margin-left: 2px;
+    width: 182px;
+    color: $darkColor;
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  &__card--text1 {
+    margin: 0 auto;
+    width: 244px;
+    color: #949494;
+    font-family: "Roboto";
+    font-size: 14px;
+    margin-bottom: 50px;
+  }
+
+  &__card--btn {
+    margin: 0 auto;
+    text-decoration: none !important;
+    display: flex;
+    margin-top: -35px;
+    color: $grey;
+    font-family: "Roboto";
+  }
+
+  &__card--btn:hover {
+    color: $orange;
+  }
+
+  &__card--btn:active {
+    color: $grey;
+    opacity: 0.8;
+  }
+
+  &__card--title {
+    transform: translateY(9px);
+  }
+
+  &__card2 {
+    display: flex !important;
+    width: 640px;
+    height: 435px;
+    background-color: #fff;
+    border: 2px solid #e4e4e2;
+  }
+
+  &__card--data2 {
+    margin-top: 15px;
+    margin-left: 180px;
+    transform: translateY(-40px);
+    color: #949494;
+  }
+
+  &__card--title2 {
+    margin: 0 auto;
+    width: 193px;
+    margin-top: -30px !important;
+    color: $darkColor;
+    font-family: "Roboto";
+    font-size: 22px;
+  }
+
+  &__card--text2 {
+    margin: 0 auto;
+    width: 270px;
+    color: #949494;
+    font-family: "Roboto";
+    margin-bottom: 32px;
+    font-size: 15.5px;
+  }
+
+  &__card3 {
+    width: 305px;
+    height: 435px;
+    background-color: #fff;
+    border: 2px solid #e4e4e2;
+  }
+
+  &__card--title3 {
+    margin: 0 auto;
+    width: 182px;
+    color: $darkColor;
+    font-family: "Roboto";
+    font-size: 22px;
+  }
+
+  &__card--text3 {
+    margin: 0 auto;
+    width: 244px;
+    color: #949494;
+    font-family: "Roboto";
+    margin-bottom: 32px;
+    font-size: 15.5px;
+  }
+}

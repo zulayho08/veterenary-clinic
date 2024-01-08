@@ -1,0 +1,34 @@
+.news {
+  width: 1440px;
+  padding-bottom: 200px;
+
+  &__bg {
+    width: 1440px;
+    height: 498px;
+    display: flex;
+    background-image: url("/images/Subscription.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &__head {
+    padding-top: 50px;
+    margin: 0;
+    margin-left: 120px;
+    margin-right: 70px;
+    width: 306px;
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 52px;
+  }
+
+  &__input {
+    margin-top: 50px;
+  }
+
+  &__pic {
+    margin-left: -100px;
+    margin-top: -51px;
+  }
+}

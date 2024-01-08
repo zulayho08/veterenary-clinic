@@ -1,0 +1,29 @@
+@mixin center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin link {
+  text-decoration: none;
+  color: #000;
+}
+
+@mixin background {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+@mixin circle {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border-radius: 50%;
+}

@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Xolboyeva Zulayho" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Veterenary clinic</title>
+  </head>
+  <body>
+    <header
+      style="max-width: 1480px; background-color: #f8f8f9"
+      class="header container"
+    >
+      <div class="header__top">
+        <div class="header__list">
+          <div style="display: flex; align-items: center" class="header__item">
+            <img
+              src="./images/house.svg"
+              alt="logo"
+              class="header__item--logo"
+              width="14"
+              height="13"
+            />
+            <p style="margin-top: 20px" class="header__item--text">
+              <a href="#" target="_blank" class="header__item--link"
+                >г. Мариуполь, проспект Победы, 48а</a
+              >
+            </p>
+          </div>
+          <div class="header__item">
+            <div class="header--item">
+              <a href="(067) 634 -75 - 74" target="_blank" class="header__link">
+                <img
+                  style="margin-top: 5px"
+                  src="./images/phone.svg"
+                  alt="img"
+                  class="header__link--img"
+                  width="13"
+                  height="13"
+                />
+                <span class="num">(067) 634 -75 - 74</span>
+              </a>
+              <a
+                href="(0637) 57 - 01 - 31"
+                target="_blank"
+                class="header__link"
+              >
+                <img
+                  style="margin-top: 10px"
+                  src="./images/circle.svg"
+                  alt="img"
+                  class="header__link--circle"
+                  width="4"
+                  height="4"
+                />
+                <span class="num">(0637) 57 - 01 - 31</span>
+              </a>
+              <a href="(098)2664389" target="_blank" class="header__link">
+                <img
+                  style="margin-top: 10px"
+                  src="./images/circle.svg"
+                  alt="img"
+                  class="header__link--circle"
+                  width="4"
+                  height="4"
+                />
+                <span class="num">(098) 266 - 43 - 89</span>
+              </a>
+            </div>
+          </div>
+          <div class="header__item">
+            <img
+              style="margin-top: 5px"
+              src="./images/data.svg"
+              alt=""
+              class="header__link--img"
+              width="14"
+              height="14"
+            />
+            <span class="header__data"
+              >Пн - Пт 8:00 - 18:00 Сб - Вс 8:00 - 14:00</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- end of header__top -->
+
+      <div
+        class="header__bottom"
+        style="max-width: 1480px; background-color: #fff"
+      >
+        <img
+          src="./images/logo.svg"
+          alt="logo"
+          width="178"
+          height="87"
+          class="header__bottom--logo"
+        />
+        <div class="header__bottom--list">
+          <div class="header__bottom--item">
+            <img
+              class="header__bottom--fish"
+              width="20"
+              height="20"
+              src="./images/fish.svg"
+              alt="img"
+            />
+            <a href="./index.html" class="header__bottom--link">Главная</a>
+          </div>
+          <div class="header__bottom--item">
+            <a href="./about.html" class="header__bottom--link">О Клинике</a>
+          </div>
+          <div class="header__bottom--item">
+            <a href="./service.html" class="header__bottom--link"
+              >Наши Услуги</a
+            >
+          </div>
+          <div class="header__bottom--item">
+            <a href="./blog.html" class="header__bottom--link"
+              >Полезные Статьи</a
+            >
+          </div>
+          <div class="header__bottom--item">
+            <a href="./faq.html" class="header__bottom--link">FAQ</a>
+          </div>
+          <div class="header__bottom--item">
+            <a href="./contact.html" class="header__bottom--link">Контакты</a>
+          </div>
+        </div>
+        <button
+          style="
+            background-color: #fff;
+            border: 2px solid #fff;
+            transform: translateX(15px);
+          "
+          type="button"
+          class="btn btn header__btn"
+          data-toggle="modal"
+          data-target=".bd-example-modal-lg"
+        >
+          <a class="header__btn">
+            <img
+              src="./images/header__btn.svg"
+              alt="btn__img"
+              width="23"
+              height="21"
+              class="header__btn--img"
+            />
+            <span class="header__btn--name"> Задать вопрос </span>
+          </a>
+        </button>
+
+        <div
+          style="background-color: #e5e5e5"
+          class="modal fade bd-example-modal-lg"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="myLargeModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-lg">
+            <button
+              class="index__modal--close"
+              type="button"
+              class="close"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <div
+              style="background-color: #ffbd54"
+              class="modal-content wrapper__modal--body"
+            >
+              <div class="wrapper__modal--wrapp">
+                <div class="wrapper__modal--left">
+                  <h6 class="wrapper__modal--head">Авторизация:</h6>
+                  <a target="_blank" href="https://www.google.com/"
+                    ><img
+                      style="margin-bottom: 20px"
+                      src="./images/google.png"
+                      alt="img"
+                      class="wrapper__modal--img"
+                  /></a>
+                  <br />
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/checkpoint/1501092823525282/?next=https%3A%2F%2Fwww.facebook.com%2F"
+                    ><img
+                      src="./images/facebook.png"
+                      alt="img"
+                      class="wrapper__modal--img"
+                  /></a>
+                  <img
+                    src="/images/wrapper__modaldog.png"
+                    alt="dog"
+                    class="wrapper__modal--dog"
+                  />
+                </div>
+                <div class="wrapper__modal--right">
+                  <h6 class="header__modal--heading">Задать вопрос</h6>
+                  <form action="">
+                    <input
+                      class="wrapper__input"
+                      type="text"
+                      placeholder="Ваше имя"
+                    />
+                    <br />
+                  </form>
+                  <div class="wrapper__place">
+                    <h6 class="wrapper__heading">Опишите Ваш вопрос.</h6>
+                    <p class="wrapper__title">
+                      Например: в каком возрасте можно прививать от бешенства?
+                    </p>
+                  </div>
+                  <button type="button" class="btn btn-lg btn-dark">
+                    Отправить
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div style="max-width: 1480px; background-color: #f8f8f9" class="container">
+      <div class="hero4">
+        <div class="hero4__left">
+          <h1 class="hero4__head">Наши услуги</h1>
+          <p class="hero4__text">
+            Узнать информацию о наших услугах, записаться на прием к врачу или
+            проконсультироваться вы можете по телефону, в любое удобное для вас
+            время.
+          </p>
+        </div>
+        <div class="hero4__right">
+          <img
+            src="/images/parrot.png"
+            alt="img"
+            width="460"
+            height="435"
+            class="hero4__right--img"
+          />
+        </div>
+      </div>
+
+      <!-- end of hero4 -->
+
+      <div class="section">
+        <div class="section__cards">
+          <div class="card section__card" style="width: 19.6rem; height: 420px">
+            <div class="card-body">
+              <img src="./images/content.svg" alt="img" class="section__img" />
+              <div class="section__bg"></div>
+              <h5 class="card-title section__head">Первичный осмотр</h5>
+              <p class="card-text section__text">
+                По условиям акции в нашей клинике предоставляетса безплатная
+                услуга
+              </p>
+              <a style="background-color: #78C0DE; color: #fff;" href="./service_open.html" class="btn btn section__btn"
+                >Узнать больше</a
+              >
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="card section__card" style="width: 19.6rem; height: 420px">
+            <div class="card-body">
+              <img src="./images/content1.svg" alt="img" class="section__img" />
+              <div class="section__bg"></div>
+              <h5 class="card-title section__head">Первичный осмотр</h5>
+              <p class="card-text section__text">
+                По условиям акции в нашей клинике предоставляетса безплатная
+                услуга
+              </p>
+              <a style="background-color: #FFBD54; color: #fff;" href="./service_open.html" class="btn btn section__btn"
+                >Узнать больше</a
+              >
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="card section__card" style="width: 19.6rem; height: 420px">
+            <div class="card-body">
+              <img src="./images/content3.svg" alt="img" class="section__img" />
+              <div class="section__bg"></div>
+              <h5 class="card-title section__head">Хирургическое вмешательство</h5>
+              <p class="card-text section__text">
+                По условиям акции в нашей клинике предоставляетса безплатная
+                услуга
+              </p>
+              <a style="background-color: #78C0DE; color: #fff;" href="./service_open.html" class="btn section__btn"
+                >Узнать больше</a
+              >
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="card section__card" style="width: 19.6rem; height: 420px">
+            <div class="card-body">
+              <img src="./images/content4.svg" alt="img" class="section__img" />
+              <div class="section__bg"></div>
+              <h5 class="card-title section__head">Дерматология</h5>
+              <p class="card-text section__text">
+                По условиям акции в нашей клинике предоставляетса безплатная
+                услуга
+              </p>
+              <a style="background-color: #FFBD54; color: #fff;" href="./service_open.html" class="btn section__btn"
+                >Узнать больше</a
+              >
+            </div>
+          </div>
+          <!-- 5 -->
+          <div class="card section__card" style="width: 19.6rem; height: 420px">
+            <div class="card-body">
+              <img src="./images/content5.svg" alt="img" class="section__img" />
+              <div class="section__bg"></div>
+              <h5 class="card-title section__head">Лабораторная диагностика</h5>
+              <p class="card-text section__text">
+                По условиям акции в нашей клинике предоставляетса безплатная
+                услуга
+              </p>
+              <a style="background-color: #78C0DE; color: #fff;" href="./service_open.html" class="btn btn section__btn"
+                >Узнать больше</a
+              >
+            </div>
+          </div>
+          <!-- 6 -->
+          <div class="card section__card" style="width: 19.6rem; height: 420px">
+            <div class="card-body">
+              <img src="./images/content6.svg" alt="img" class="section__img" />
+              <div class="section__bg"></div>
+              <h5 class="card-title section__head">Офтальмология</h5>
+              <p class="card-text section__text">
+                По условиям акции в нашей клинике предоставляетса безплатная
+                услуга
+              </p>
+              <a style="background-color: #FFBD54; color: #fff;" href="./service_open.html" class="btn section__btn"
+                >Узнать больше</a
+              >
+            </div>
+          </div>
+          <!-- 7 -->
+          <div class="card section__card" style="width: 19.6rem; height: 420px">
+            <div class="card-body">
+              <img src="./images/carousel__item.svg" alt="img" class="section__img" />
+              <div class="section__bg"></div>
+              <h5 class="card-title section__head">УЗИ диагностика</h5>
+              <p class="card-text section__text">
+                По условиям акции в нашей клинике предоставляетса безплатная
+                услуга
+              </p>
+              <a style="background-color: #78C0DE; color: #fff;" href="./service_open.html" class="btn  section__btn"
+                >Узнать больше</a
+              >
+            </div>
+          </div>
+          <!-- 8 -->
+          <div class="card section__card" style="width: 19.6rem; height: 420px">
+            <div class="card-body">
+              <img src="./images/carousel__item1.svg" alt="img" class="section__img" />
+              <div class="section__bg"></div>
+              <h5 class="card-title section__head">Чипированиея</h5>
+              <p class="card-text section__text">
+                По условиям акции в нашей клинике предоставляетса безплатная
+                услуга
+              </p>
+              <a style="background-color: #FFBD54; color: #fff;" href="./service_open.html" class="btn  section__btn"
+                >Узнать больше</a
+              >
+            </div>
+          </div>
+          <!-- 9 -->
+          <div class="card section__card" style="width: 19.6rem; height: 420px">
+            <div class="card-body">
+              <img src="./images/carousel__item3.svg" alt="img" class="section__img" />
+              <div class="section__bg"></div>
+              <h5 class="card-title section__head">Международ-ные паспорта</h5>
+              <p class="card-text section__text">
+                По условиям акции в нашей клинике предоставляетса безплатная
+                услуга
+              </p>
+              <a  style="background-color: #78C0DE; color: #fff;" href="./service_open.html" class="btn  section__btn"
+                >Узнать больше</a
+              >
+            </div>
+          </div>
+          <!-- 10 -->
+          <div class="card section__card" style="width: 19.6rem; height: 420px">
+            <div class="card-body">
+              <img src="./images/carousel__item4.svg" alt="img" class="section__img" />
+              <div class="section__bg"></div>
+              <h5 class="card-title section__head">Вакцинация</h5>
+              <p class="card-text section__text">
+                По условиям акции в нашей клинике предоставляетса безплатная
+                услуга
+              </p>
+              <a style="background-color: #FFBD54; color: #fff;" href="./service_open.html" class="btn section__btn"
+                >Узнать больше</a
+              >
+            </div>
+          </div>
+          <!-- 11 -->
+          <div class="card section__card" style="width: 19.6rem; height: 420px">
+            <div class="card-body">
+              <img src="./images/carousel__item5.svg" alt="img" class="section__img" />
+              <div class="section__bg"></div>
+              <h5 class="card-title section__head">Стоматология</h5>
+              <p class="card-text section__text">
+                По условиям акции в нашей клинике предоставляетса безплатная
+                услуга
+              </p>
+              <a style="background-color: #78C0DE; color: #fff;" href="./service_open.html" class="btn section__btn"
+                >Узнать больше</a
+              >
+            </div>
+          </div>
+          <!--12  -->
+          <div class="card section__card" style="width: 19.6rem; height: 420px">
+            <div class="card-body">
+              <img src="./images/carousel__item6.svg" alt="img" class="section__img" />
+              <div class="section__bg"></div>
+              <h5 class="card-title section__head">Вызов на дом</h5>
+              <p class="card-text section__text">
+                По условиям акции в нашей клинике предоставляетса безплатная
+                услуга
+              </p>
+              <a style="background-color: #FFBD54; color: #fff;" href="./service_open.html" class="btn  section__btn"
+                >Узнать больше</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end of container -->
+
+    <footer class="footer">
+            <div style="transform: translateX(-160px);" class="footer__wrapp container">
+              <img src="./images/logo.svg" alt="logo" class="footer__logo">
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <div class="footer__wrapp--item">
+                    <a target="_blank" href="" class="footer__item--link">Главная</a>
+                  </div>
+                  <div class="footer__wrapp--item">
+                    <a target="_blank" href="" class="footer__item--link">О Клинике</a>
+                  </div>
+                  <div class="footer__wrapp--item">
+                    <a target="_blank" href="" class="footer__item--link">Наши Услуги</a>
+                  </div>
+                </li>
+                <li class="footer__item">
+                  <div class="footer__wrapp--item">
+                    <a target="_blank" href="" class="footer__item--link">Полезные Статьи</a> <br>
+                  </div>
+                  <div class="footer__wrapp--item">
+                    <a target="_blank" href="" class="footer__item--link">FAQ</a> <br>
+                  </div>
+                  <div class="footer__wrapp--item">
+                    <a target="_blank" href="" class="footer__item--link">Контакты</a> <br>
+                  </div>
+                </li>
+              </ul>
+              <div class="footer--list">
+                <div class="footer--item1">
+                  <div class="footer__data1">
+                    <img width="16" height="16" src="/images/data.svg" alt="data" class="footer__data--img">
+                    <div class="footer__data--links">
+                      <a target="_blank" href="" class="footer__data--link"><pre class="pre">Пн - Пт 8:00 - 18:00</pre></a> <br>
+                      <a target="_blank" href="" class="footer__data--link"><pre style="margin-top: -35px;" class="pre">Сб - Вс 8:00 - 14:00</pre></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer--item2">
+                  <div class="footer___links">
+                    <img src="/images/house.svg" alt="house" class="footer--picture">
+                    <div class="footer__texts">
+                      <pre class="pre">г. Мариуполь,</pre>
+                    <pre style="margin-top: -11px;" class="pre">проспект Победы, 48а</pre>
+                    </div>
+                  </div>  
+                <div class="footer--item3">
+                  <a target="_blank" href="" class="footer__link">
+                    <a href="(067) 634 -75 - 74" target="_blank" class="header__link">
+                      <img
+                      style="margin-top: 5px;"
+                        src="./images/phone.svg"
+                        alt="img"
+                        class="footer__link--img"
+                        width="13"
+                        height="13"
+                      />
+                      <pre class="num pre">(067) 634 -75 - 74</pre>
+                    </a>
+                    <a
+                      href="(0637) 57 - 01 - 31"
+                      target="_blank"
+                      class="header__link"
+                    >
+                      <pre class="num pre">(0637) 57 - 01 - 31</pre>
+                    </a>
+                    <a href="(098)2664389" target="_blank" class="header__link">
+                      <pre class="num pre">(098) 266 - 43 - 89</pre>
+                    </a>
+                  </a>
+                </div>
+              </div>
+              <pre class="footer___title1">© 2020 example. All Rights Reserved.</pre>
+            </div>
+   </footer>
+
+    <!-- end of footer -->
+
+    <!-- js -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

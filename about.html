@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Xolboyeva Zulayho" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Veterenary clinic</title>
+  </head>
+  <body>
+    <header
+      style="max-width: 1480px; background-color: #f8f8f9"
+      class="header container"
+    >
+      <div class="header__top">
+        <div class="header__list">
+          <div style="display: flex; align-items: center" class="header__item">
+            <img
+              src="./images/house.svg"
+              alt="logo"
+              class="header__item--logo"
+              width="14"
+              height="13"
+            />
+            <p style="margin-top: 20px" class="header__item--text">
+              <a href="#" target="_blank" class="header__item--link"
+                >г. Мариуполь, проспект Победы, 48а</a
+              >
+            </p>
+          </div>
+          <div class="header__item">
+            <div class="header--item">
+              <a href="(067) 634 -75 - 74" target="_blank" class="header__link">
+                <img
+                  style="margin-top: 5px"
+                  src="./images/phone.svg"
+                  alt="img"
+                  class="header__link--img"
+                  width="13"
+                  height="13"
+                />
+                <span class="num">(067) 634 -75 - 74</span>
+              </a>
+              <a
+                href="(0637) 57 - 01 - 31"
+                target="_blank"
+                class="header__link"
+              >
+                <img
+                  style="margin-top: 10px"
+                  src="./images/circle.svg"
+                  alt="img"
+                  class="header__link--circle"
+                  width="4"
+                  height="4"
+                />
+                <span class="num">(0637) 57 - 01 - 31</span>
+              </a>
+              <a href="(098)2664389" target="_blank" class="header__link">
+                <img
+                  style="margin-top: 10px"
+                  src="./images/circle.svg"
+                  alt="img"
+                  class="header__link--circle"
+                  width="4"
+                  height="4"
+                />
+                <span class="num">(098) 266 - 43 - 89</span>
+              </a>
+            </div>
+          </div>
+          <div class="header__item">
+            <img
+              style="margin-top: 5px"
+              src="./images/data.svg"
+              alt=""
+              class="header__link--img"
+              width="14"
+              height="14"
+            />
+            <span class="header__data"
+              >Пн - Пт 8:00 - 18:00 Сб - Вс 8:00 - 14:00</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- end of header__top -->
+
+      <div
+        class="header__bottom"
+        style="max-width: 1480px; background-color: #fff"
+      >
+        <img
+          src="./images/logo.svg"
+          alt="logo"
+          width="178"
+          height="87"
+          class="header__bottom--logo"
+        />
+        <div class="header__bottom--list">
+          <div class="header__bottom--item">
+            <img
+              class="header__bottom--fish"
+              width="20"
+              height="20"
+              src="./images/fish.svg"
+              alt="img"
+            />
+            <a href="./index.html" class="header__bottom--link">Главная</a>
+          </div>
+          <div class="header__bottom--item">
+            <a href="./about.html" class="header__bottom--link">О Клинике</a>
+          </div>
+          <div class="header__bottom--item">
+            <a href="./service.html" class="header__bottom--link"
+              >Наши Услуги</a
+            >
+          </div>
+          <div class="header__bottom--item">
+            <a href="./blog.html" class="header__bottom--link"
+              >Полезные Статьи</a
+            >
+          </div>
+          <div class="header__bottom--item">
+            <a href="./faq.html" class="header__bottom--link">FAQ</a>
+          </div>
+          <div class="header__bottom--item">
+            <a href="./contact.html" class="header__bottom--link">Контакты</a>
+          </div>
+        </div>
+        <button
+          style="
+            background-color: #fff;
+            border: 2px solid #fff;
+            transform: translateX(15px);
+          "
+          type="button"
+          class="btn btn header__btn"
+          data-toggle="modal"
+          data-target=".bd-example-modal-lg"
+        >
+          <a class="header__btn">
+            <img
+              src="./images/header__btn.svg"
+              alt="btn__img"
+              width="23"
+              height="21"
+              class="header__btn--img"
+            />
+            <span class="header__btn--name"> Задать вопрос </span>
+          </a>
+        </button>
+
+        <div
+          style="background-color: #e5e5e5"
+          class="modal fade bd-example-modal-lg"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="myLargeModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-lg">
+            <button
+              class="index__modal--close"
+              type="button"
+              class="close"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <div
+              style="background-color: #ffbd54"
+              class="modal-content wrapper__modal--body"
+            >
+              <div class="wrapper__modal--wrapp">
+                <div class="wrapper__modal--left">
+                  <h6 class="wrapper__modal--head">Авторизация:</h6>
+                  <a target="_blank" href="https://www.google.com/"
+                    ><img
+                      style="margin-bottom: 20px"
+                      src="./images/google.png"
+                      alt="img"
+                      class="wrapper__modal--img"
+                  /></a>
+                  <br />
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/checkpoint/1501092823525282/?next=https%3A%2F%2Fwww.facebook.com%2F"
+                    ><img
+                      src="./images/facebook.png"
+                      alt="img"
+                      class="wrapper__modal--img"
+                  /></a>
+                  <img
+                    src="/images/wrapper__modaldog.png"
+                    alt="dog"
+                    class="wrapper__modal--dog"
+                  />
+                </div>
+                <div class="wrapper__modal--right">
+                  <h6 class="header__modal--heading">Задать вопрос</h6>
+                  <form action="">
+                    <input
+                      class="wrapper__input"
+                      type="text"
+                      placeholder="Ваше имя"
+                    />
+                    <br />
+                  </form>
+                  <div class="wrapper__place">
+                    <h6 class="wrapper__heading">Опишите Ваш вопрос.</h6>
+                    <p class="wrapper__title">
+                      Например: в каком возрасте можно прививать от бешенства?
+                    </p>
+                  </div>
+                  <button type="button" class="btn btn-lg btn-dark">
+                    Отправить
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- end of header -->
+
+    <div style="max-width: 1480px; background-color: #f8f8f9" class="container">
+      <div class="hero5">
+        <div class="hero5__left">
+          <h1 class="hero5__head">О клинике</h1>
+          <p class="hero5__text">
+            Узнать информацию о наших услугах, записаться на прием к врачу или
+            проконсультироваться вы можете по телефону, в любое удобное для вас
+            время.
+          </p>
+          <div class="hero5__bg">
+            <img src="./images/Object.svg" alt="img" class="hero5__object" />
+          </div>
+          <!--  -->
+        </div>
+        <div class="hero5__right">
+          <img
+            src="/images/hero5__img.png"
+            width="448"
+            height="545"
+            alt="img"
+            width="569"
+            height="466"
+            class="hero5__right--img"
+          />
+        </div>
+      </div>
+
+      <!-- end of hero5 -->
+
+      <div class="widget">
+        <div class="widget__top">
+          <div class="widget__top--left">
+            <img
+              src="./images/widget.png"
+              alt="img"
+              width="705"
+              height="449"
+              class="widget__top"
+            />
+          </div>
+          <div class="widget__top--right">
+            <p class="widget__top--text">
+              Принимая решение о том, чтобы завести
+              <span style="color: #ffbd54">домашнего любимца</span>, или уже
+              имея его, мы не должны забывать, что животное это живой организм,
+              который требует не только нашей любви, а и заботы о её здоровье и
+              внешнем виде.<span style="color: #ffbd54">Ответственность</span>
+              хозяина заключается в чётком выполнении правил по уходу за
+              животным, своевременного обращения к врачу за консультацией и
+              помощи в решении любого вопроса. Ведь мы в ответе за тех, кого
+              приручили!
+            </p>
+          </div>
+        </div>
+        <div class="widget__bottom">
+          <div class="widget__bottom--left">
+            <p class="widget__bottom--text">
+              Ветеринарная клиника предоставляет широкий спектр услуг, начиная
+              от простых профилактических мероприятий до сложных хирургических
+              вмешательств. Мы проводим рентгенографические, ультразвуковые
+              исследования.Проводится анализ крови как общеклинический, так и
+              биохимический. Проводится общий анализ мочи с микроскопией осадка.
+            </p>
+            <p class="widget__bottom--text">
+              Только у нас Вы можете провести
+              <span style="color: #78c0de">анализ крови кошек</span> на такие
+              заболевания как панлейкопения, кальцивироз, герпесвирусная
+              инфекция, короновироз, токсоплазмоз и хламидиоз. А также
+              <span style="color: #78c0de">собак на такие заболевания</span>
+              как инфекционный гепатит, парвовирусный энтерит, чума плотоядных.
+              С полным спектром услуг можно ознакомиться здесь.
+            </p>
+          </div>
+          <div class="widget__bottom--right">
+            <img
+              src="./images/widget__bottom.png"
+              alt="img"
+              width="797"
+              height="532"
+              class="widget__bottom--img"
+            />
+          </div>
+        </div>
+        <div class="widget__wrapp">
+          <div class="widget__wrapp--left">
+            <div class="widget__wrapp--head">
+              Хочешь подстричь<span style="color: #ffbd54"> питомца?</span>
+            </div>
+            <p class="widget__wrapp--text">
+              В лечебнице работает кабинет груммера, после посещения которого,
+              Ваш любимец будет особенно неотразим и привлекателен.
+            </p>
+            <div style="display: flex" class="widget__imgs">
+              <img
+                src="./images/arrow.svg"
+                alt="img"
+                width="82"
+                height="16.7"
+                class="widget__wrapp--img"
+              />
+              <img
+                src="./images/numbers.svg"
+                alt="img"
+                width="37"
+                height="42"
+                class="widget__wrapp--img"
+              />
+            </div>
+          </div>
+          <div style="display: flex" class="widget__wrapp--right">
+            <img
+              src="./images/widget-1.png"
+              alt="pic"
+              width="307"
+              height="400"
+              class="widget__wrapp--pic"
+            />
+            <img
+              src="./images/widget-2.png"
+              alt="pic"
+              width="307"
+              height="400"
+              class="widget__wrapp--pic"
+            />
+            <img
+              src="./images/widget-3.png"
+              alt="pic"
+              width="154"
+              height="400"
+              class="widget__wrapp--pic"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- end of widget -->
+    </div>
+    <!-- end of container -->
+
+    <footer class="footer">
+            <div style="transform: translateX(-150px);" class="footer__wrapp container">
+              <img src="./images/logo.svg" alt="logo" class="footer__logo">
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <div class="footer__wrapp--item">
+                    <a target="_blank" href="./index.html" class="footer__item--link">Главная</a>
+                  </div>
+                  <div class="footer__wrapp--item">
+                    <a target="_blank" href="./about.html" class="footer__item--link">О Клинике</a>
+                  </div>
+                  <div class="footer__wrapp--item">
+                    <a target="_blank" href="./service.html" class="footer__item--link">Наши Услуги</a>
+                  </div>
+                </li>
+                <li class="footer__item">
+                  <div class="footer__wrapp--item">
+                    <a target="_blank" href="./blog.html" class="footer__item--link">Полезные Статьи</a> <br>
+                  </div>
+                  <div class="footer__wrapp--item">
+                    <a target="_blank" href="./faq.html" class="footer__item--link">FAQ</a> <br>
+                  </div>
+                  <div class="footer__wrapp--item">
+                    <a target="_blank" href="./contact.html" class="footer__item--link">Контакты</a> <br>
+                  </div>
+                </li>
+              </ul>
+              <div class="footer--list">
+                <div class="footer--item1">
+                  <div class="footer__data1">
+                    <img width="16" height="16" src="/images/data.svg" alt="data" class="footer__data--img">
+                    <div class="footer__data--links">
+                      <a target="_blank" href="" class="footer__data--link"><pre class="pre">Пн - Пт 8:00 - 18:00</pre></a> <br>
+                      <a target="_blank" href="" class="footer__data--link"><pre style="margin-top: -35px;" class="pre">Сб - Вс 8:00 - 14:00</pre></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer--item2">
+                  <div class="footer___links">
+                    <img src="/images/house.svg" alt="house" class="footer--picture">
+                    <div class="footer__texts">
+                      <pre class="pre">г. Мариуполь,</pre>
+                    <pre style="margin-top: -11px;" class="pre">проспект Победы, 48а</pre>
+                    </div>
+                  </div>  
+                <div class="footer--item3">
+                  <a target="_blank" href="" class="footer__link">
+                    <a href="(067) 634 -75 - 74" target="_blank" class="header__link">
+                      <img
+                      style="margin-top: 5px;"
+                        src="./images/phone.svg"
+                        alt="img"
+                        class="footer__link--img"
+                        width="13"
+                        height="13"
+                      />
+                      <pre class="num pre">(067) 634 -75 - 74</pre>
+                    </a>
+                    <a
+                      href="(0637) 57 - 01 - 31"
+                      target="_blank"
+                      class="header__link"
+                    >
+                      <pre class="num pre">(0637) 57 - 01 - 31</pre>
+                    </a>
+                    <a href="(098)2664389" target="_blank" class="header__link">
+                      <pre class="num pre">(098) 266 - 43 - 89</pre>
+                    </a>
+                  </a>
+                </div>
+              </div>
+              <pre class="footer___title1">© 2020 example. All Rights Reserved.</pre>
+            </div>
+          </footer>
+
+    <!-- end of footer -->
+
+    <!-- js -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

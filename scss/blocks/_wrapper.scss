@@ -1,0 +1,124 @@
+.wrappp {
+  width: 1440px;
+  background-color: #f9f8f8;
+  padding-bottom: 200px;
+}
+
+.wrapper {
+  width: 1440px;
+  height: 649px;
+  background-image: url("/images/wrapper__bg.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  margin-bottom: 100px;
+  transform: translateY(-19px);
+
+  &__vektor {
+    margin-top: 306px;
+    margin-left: 115px;
+  }
+
+  &__right {
+    margin-left: 450px;
+  }
+
+  &__head {
+    width: 360px;
+    font-size: 48px;
+    font-family: "Roboto";
+    color: #fff;
+    margin-top: 70px;
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    margin-bottom: 20px;
+    width: 334px;
+    color: #949494;
+    font-size: 13px;
+  }
+
+  &__input {
+    margin-bottom: 10px;
+    width: 375px;
+    height: 50px;
+    padding-left: 20px;
+  }
+
+  &__place {
+    padding-left: 20px;
+    width: 375px;
+    height: 165px;
+    margin-bottom: 30px;
+    background-color: #fff;
+  }
+
+  &__heading {
+    padding-top: 20px;
+    color: #949494;
+  }
+
+  &__title {
+    width: 250px;
+    color: #dbdbdb;
+    font-size: 13px;
+  }
+
+  &__btn {
+    width: 226px;
+    height: 50px;
+    border: none;
+    background-color: $orange;
+    margin-top: -380px;
+  }
+
+  &__modal--body {
+    width: 850px;
+    height: 648px;
+    background-color: $orange;
+  }
+
+  &__modal--wrapp {
+    display: flex;
+  }
+
+  &__modal--left {
+    margin-left: 50px;
+  }
+
+  &__modal--head {
+    margin-bottom: 20px;
+    margin-top: 163px;
+  }
+
+  &__modal--dog {
+    margin-left: -40px;
+  }
+
+  &__modal--right {
+    transform: translateX(-50px);
+  }
+
+  &__modal--heading {
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 138px;
+  }
+
+  &__fish {
+    transform: translateY(-390px);
+    margin-left: 175px;
+  }
+
+  &__word {
+    transform: translateY(-900px);
+    margin-left: 400px;
+  }
+
+  &__word2 {
+    transform: translateY(-1100px);
+    margin-left: 600px;
+  }
+}

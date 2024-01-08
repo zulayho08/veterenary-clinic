@@ -1,0 +1,72 @@
+.section {
+  width: 1440px;
+  padding-bottom: 200px;
+
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-around;
+  }
+
+  &__card {
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  &__card:hover {
+    box-shadow: 1px 1px 5px;
+  }
+
+  &__img {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  &__bg {
+    position: absolute;
+    transform: translateY(-40px);
+    margin-left: 20px;
+    width: 108px;
+    height: 95px;
+    background-image: url("/images/pet.png");
+    background-size: contain;
+    background-position: right center;
+    background-repeat: no-repeat;
+  }
+
+  &__head {
+    margin-bottom: 20px;
+    width: 250px;
+    color: black;
+    font-family: "Roboto";
+    font-size: 33px;
+  }
+
+  &__text {
+    width: 229px;
+    color: $nineF;
+    font-family: "Roboto";
+    font-size: 17px;
+  }
+
+  &__btn {
+    // width: 156px;
+    // height: 5px;
+    background-color: black;
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 18px;
+  }
+
+  &__btn:hover {
+    opacity: 0.8;
+    color: #fff;
+  }
+
+  &__btn:active {
+    background-color: #000;
+    color: #fff;
+  }
+}

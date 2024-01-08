@@ -1,0 +1,145 @@
+.footer {
+  background-color: #ebebeb;
+  padding-bottom: 150px;
+
+  &__wrapp {
+    padding-top: 200px;
+    display: flex;
+  }
+
+  &__logo {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  &__list {
+    margin-right: 50px;
+    list-style: none;
+    display: flex;
+  }
+
+  &__item {
+    display: block;
+  }
+
+  &__wrapp--item {
+    width: 200px;
+    margin-bottom: 18px;
+  }
+
+  &__item--link {
+    text-decoration: none;
+    color: $grey;
+    margin-bottom: 20px;
+    font-family: "Roboto";
+    font-size: 23px;
+  }
+
+  &__item--link:hover {
+    text-decoration: none;
+    color: $orange;
+  }
+
+  &__item--link:active {
+    text-decoration: none;
+    color: $grey;
+  }
+
+  &--list {
+    display: flex;
+  }
+
+  &--item1 {
+    display: flex;
+  }
+
+  &__data1 {
+    display: flex;
+  }
+
+  &__data--img {
+    margin-top: 6px;
+    margin-right: 5px;
+  }
+
+  .pre {
+    font-family: "Roboto";
+    font-size: 20px;
+  }
+
+  .pre:hover {
+    color: $orange;
+    text-decoration: none;
+  }
+
+  .pre:active {
+    color: $grey;
+    opacity: 0.8;
+  }
+
+  &__data--link {
+    text-decoration: none;
+  }
+
+  &___links {
+    margin-left: 50px;
+    display: flex;
+  }
+
+  &--picture {
+    transform: translateY(-73px);
+    margin-right: 5px;
+  }
+
+  &__data--link {
+    font-family: "Roboto";
+    text-decoration: none;
+    color: #000;
+    // width: 720px;
+  }
+
+  &__data--link:hover {
+    text-decoration: none;
+  }
+
+  &--item2 {
+    width: 300px;
+
+    display: flex;
+  }
+
+  &__item--logo {
+    margin-left: -25px;
+    margin-top: 25px;
+  }
+
+  &__item--text {
+    width: 157px;
+  }
+
+  &__link--img {
+    margin-left: -25px;
+    margin-right: 12px;
+  }
+
+  &__item--link2 {
+    width: 157px !important;
+    color: #000;
+  }
+
+  &___title {
+    position: absolute;
+    transform: translateY(230px);
+    margin-left: 1100px;
+    font-family: "Roboto";
+    font-size: 18px;
+  }
+
+  &___title1 {
+    position: absolute;
+    transform: translateY(230px);
+    margin-left: 350px;
+    font-family: "Roboto";
+    font-size: 18px;
+  }
+}

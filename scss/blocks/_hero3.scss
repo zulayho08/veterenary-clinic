@@ -1,0 +1,50 @@
+.hero3 {
+  width: 1440px;
+  display: flex;
+
+  &__left {
+    padding-left: 120px;
+    padding-top: 100px;
+  }
+
+  &__head {
+    width: 321px;
+    font-family: "Roboto";
+    font-size: 72px;
+    color: $grey;
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    width: 577px;
+    font-family: "Roboto";
+    font-size: 18px;
+    color: $nineF;
+    margin-bottom: 110px;
+  }
+
+  &__btn {
+    border: 2px solid #78c0de;
+    border-radius: 5px;
+    width: 201px;
+    height: 50px;
+    display: flex;
+    background-color: #78c0de;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  &__btn:hover {
+    border: none;
+  }
+
+  &__btn:active {
+    border: none;
+  }
+
+  &__right--img {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 200px;
+  }
+}

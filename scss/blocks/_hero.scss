@@ -1,0 +1,58 @@
+@import "../colors/colors";
+@import "../mixins/mixin";
+
+.hero {
+  width: 1440px;
+  height: 894px;
+  margin-top: 0;
+  background-image: url("/images/hero__bg.svg");
+  @include background();
+  background-position: bottom center;
+  background-color: $wGrey;
+
+  &__wrapp {
+    margin-left: 730px;
+    // margin-top: -30px;
+    width: 608px;
+    padding-top: 100px;
+  }
+
+  &__head {
+    font-family: "Roboto";
+    font-size: 62px;
+    width: 608px;
+    font-weight: 500;
+  }
+
+  &__span {
+    color: $blue;
+  }
+
+  &__text {
+    width: 555px;
+    font-size: 15px;
+    color: #949494;
+    margin-bottom: 50px;
+  }
+
+  &__btn {
+    font-family: "Roboto";
+    font-size: 10px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: $grey;
+    color: $lightColor;
+    border-radius: 3px;
+  }
+
+  &__btn:hover {
+    background-color: $orange;
+    color: $grey;
+    text-decoration: none;
+  }
+
+  &__btn:active {
+    opacity: 0.5;
+  }
+}

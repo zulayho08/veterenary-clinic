@@ -1,0 +1,51 @@
+.hero__bottom {
+  width: 1440px;
+  background-color: $wGrey;
+  padding-top: 1px;
+
+  &--bg_top {
+    width: 142px;
+    height: 128px;
+    position: absolute;
+    transform: translateX(200px);
+    margin-top: -20px;
+    background-image: url("/images/“.svg");
+    @include background();
+  }
+
+  &--hr {
+    width: 140px;
+    height: 2px;
+    background-color: #dbdbdb;
+    border: none;
+    margin-bottom: 50px;
+  }
+
+  &--text {
+    margin: 0 auto;
+    text-align: center;
+    width: 753px;
+    color: #949494;
+    font-size: 16px;
+    // margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  &--bg {
+    width: 142px;
+    height: 128px;
+    position: absolute;
+    transform: translateX(1100px);
+    margin-top: -150px;
+    background-image: url("/images/“bottom.svg");
+    @include background();
+  }
+
+  &--title {
+    color: $grey;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Roboto";
+    padding-bottom: 50px;
+  }
+}
